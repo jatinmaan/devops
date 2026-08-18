@@ -1,0 +1,3 @@
+this is conflit demo
+branch1 line
+this is conflit demo
