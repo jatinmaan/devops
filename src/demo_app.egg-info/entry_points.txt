@@ -1,0 +1,2 @@
+[console_scripts]
+demo-app = demo_app:main
