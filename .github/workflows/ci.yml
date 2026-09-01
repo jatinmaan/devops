@@ -1,15 +1,19 @@
+```yaml
 name: ci
 
 on: [push]
 
-jobs: 
-  build: 
-       runs-on: ubuntu-latest
-       steps: 
-             -name: check code
-              uses: actions/checkout@v4 
- 
-             - name: say hello
-               run: echo "hello" 
-             - name: check files
-               run: ls -la   
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check code
+        uses: actions/checkout@v4
+
+      - name: say hello
+        run: echo "hello"
+
+      - name: check files
+        run: ls -la
+```
+
