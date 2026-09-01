@@ -1,4 +1,3 @@
-```yaml
 name: ci
 
 on: [push]
@@ -15,5 +14,3 @@ jobs:
 
       - name: check files
         run: ls -la
-```
-
